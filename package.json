@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.0",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.6.5",
+    "postcss": "^8.4.27",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@nuxtjs/supabase": "^1.2.2",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@pinia/nuxt": "^0.4.11",
+    "@supabase/supabase-js": "^2.43.4",
+    "axios": "^1.4.0",
+    "gsap": "^3.12.2",
+    "pinia": "^2.1.6",
+    "radix-vue": "^1.8.3"
+  }
+}
