@@ -30,11 +30,11 @@
 
         <div v-for="player in playersStats" :key="player.id"  class="flex justify-between">
           <p class=" w-6/12 truncate"> {{ player.name }} </p>
+          <span class=" w-1/12 text-center">{{ player.points || 0 }}</span>
           <p class=" w-1/12 text-center"> {{player.games || 0}} </p>
           <p class=" w-1/12 text-center"> {{player.goals || 0}} </p>
           <p class=" w-1/12 text-center"> {{player.assistences || 0}} </p>
           <p class=" w-1/12 text-center"> {{player.odd_goals || 0}} </p>
-          <span class=" w-1/12 text-center">{{player.goals + player.assistences - player.odd_goals || 0 }}</span>
 
         </div>
 
@@ -60,8 +60,6 @@
 
   onMounted(async () => {
     await $dataStore.getPlayersInfo()
-
-    console.log(playersStats.value)
   })
 
   
