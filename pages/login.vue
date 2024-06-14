@@ -31,8 +31,8 @@
 
 <script setup>
 const supabase = useSupabaseClient()
-const email = ref('admin@futebreja.com')
-const password = ref('FutebrejaPorto123')
+const email = ref('')
+const password = ref('')
 const message = ref('')
 
 const signIn = async () => {
