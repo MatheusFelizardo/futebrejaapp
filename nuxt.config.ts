@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
-    '@nuxtjs/supabase',
     'radix-vue/nuxt'
   ],
   css: ['~/assets/css/main.css'],
