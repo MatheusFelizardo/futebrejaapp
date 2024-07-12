@@ -13,7 +13,7 @@
         <p>Mov Eagle</p>
 
         <video class="w-80" muted autoplay playsinline>
-          <source src="/eagle.mov" type="video/quicktime">
+          <source src="/eagle.mov">
         </video>
       </div>
 
